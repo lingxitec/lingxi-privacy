@@ -3,13 +3,13 @@
   "min_supported_version": "1.0.0",
   "announcements": [
     {
-      "id": "welcome-2026-0001",
+      "id": "test-2026-05-10-001",
       "type": "info",
-      "title": "ceshi欢迎使用灵犀笔记",
-      "message": "感谢您下载使用灵犀笔记！如有任何问题，请通过 GitHub Issues 或微信公众号联系我们。",
+      "title": "🧪 测试公告",
+      "message": "如果你看到这条公告，说明公告系统工作正常！这是测试消息。",
       "version": "1.0.0",
       "date": "2026-05-10",
-      "url": "https://github.com/lingxitec/lingxi-privacy/issues",
+      "url": null,
       "dismissible": true
     }
   ],
