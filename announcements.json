@@ -1,0 +1,17 @@
+{
+  "current_version": "1.0.0",
+  "min_supported_version": "1.0.0",
+  "announcements": [
+    {
+      "id": "welcome",
+      "type": "info",
+      "title": "欢迎使用灵犀笔记",
+      "message": "感谢您下载使用灵犀笔记！如有任何问题，请通过 GitHub Issues 或微信公众号联系我们。",
+      "version": "1.0.0",
+      "date": "2026-05-10",
+      "url": "https://github.com/lingxitec/lingxi-privacy/issues",
+      "dismissible": true
+    }
+  ],
+  "security_alerts": []
+}
