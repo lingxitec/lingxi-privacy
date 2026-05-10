@@ -3,9 +3,9 @@
   "min_supported_version": "1.0.0",
   "announcements": [
     {
-      "id": "welcome",
+      "id": "welcome-2026-0001",
       "type": "info",
-      "title": "欢迎使用灵犀笔记",
+      "title": "ceshi欢迎使用灵犀笔记",
       "message": "感谢您下载使用灵犀笔记！如有任何问题，请通过 GitHub Issues 或微信公众号联系我们。",
       "version": "1.0.0",
       "date": "2026-05-10",
