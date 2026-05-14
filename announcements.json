@@ -3,13 +3,13 @@
   "min_supported_version": "1.0.0",
   "announcements": [
     {
-      "id": "test-2026-05-10-001",
+      "id": "lingxi-2026-05-14-001",
       "type": "info",
-      "title": "🧪 测试公告",
-      "message": "如果你看到这条公告，说明公告系统工作正常！这是测试消息。",
+      "title": "🧪 最新版本",
+      "message": "如果开心，你就笑一笑。",
       "version": "1.0.0",
-      "date": "2026-05-10",
-      "url": null,
+      "date": "2026-05-14",
+      "url": www.baidu.com,
       "dismissible": true
     }
   ],
