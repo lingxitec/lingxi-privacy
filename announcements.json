@@ -3,26 +3,15 @@
   "min_supported_version": "1.0.0",
   "announcements": [
     {
-      "id": "灵犀-260514-5",
+      "id": "灵犀-0001",
       "type": "info",
-      "title": "🦏 最新版本",
-      "message": "如果感到开心，你就张大嘴哈哈笑一笑。",
+      "title": "🦏 欢迎使用灵犀笔记",
+      "message": "用心记录灵感的点点滴滴。",
       "version": "1.0.0",
       "date": "2026-05-14",
       "url": null,
       "dismissible": true
     }
   ],
-   "security_alerts": [
-    {
-      "id": "security-2026-001",
-      "type": "security",
-      "title": "灵犀发布重要安全更新",
-      "message": "发现潜在安全问题，请立即更新到 v1.0.2",
-      "version": "1.0.2",
-      "date": "2026-05-15",
-      "url": "https://github.com/...",
-      "dismissible": false
-    }
-   ]
+   "security_alerts": []
 }
