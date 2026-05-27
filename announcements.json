@@ -1,17 +1,6 @@
 {
   "current_version": "1.0.0",
   "min_supported_version": "1.0.0",
-  "announcements": [
-    {
-      "id": "灵犀-0001",
-      "type": "info",
-      "title": "🦏 欢迎使用灵犀笔记",
-      "message": "用心记录灵感的点点滴滴。",
-      "version": "1.0.0",
-      "date": "2026-05-14",
-      "url": null,
-      "dismissible": true
-    }
-  ],
+  "announcements": [],
    "security_alerts": []
 }
