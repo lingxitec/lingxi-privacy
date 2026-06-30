@@ -105,7 +105,7 @@
 
 | 服务商 | 数据保留期限 | 是否用于训练 | 详细政策 |
 |--------|------------|------------|---------|
-| DeepSeek | 30天 | 否 | https://www.deepseek.com/privacy |
+| DeepSeek | 30天 | 否 | https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html |
 | 智谱GLM | 30天 | 否 | https://chatglm.cn/legal/privacyPolicySingle |
 | Kimi | 7天 | 否 | https://www.kimi.com/user/agreement/userPrivacy |
 | 豆包 | 30天 | 否 | https://www.doubao.com/legal/privacy-policy |
@@ -124,7 +124,6 @@
 - **Kimi**：中国大陆
 - **豆包**：中国大陆
 - **通义千问**：中国大陆
-- **Apple Intelligence**：可能传输到美国
 
 本应用自然人开发者确保：
 - 已获得您的单独同意
