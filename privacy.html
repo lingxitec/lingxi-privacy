@@ -150,56 +150,71 @@
 
         <h2>3. AI服务数据处理</h2>
 
-        <h3>3.1 默认内置DeepSeek</h3>
-        <p>本应用默认内置DeepSeek AI服务，为您提供以下AI功能：</p>
+        <h3>3.1 AI功能说明</h3>
+        <p>本应用提供以下AI功能：</p>
         <ul>
             <li>每日回顾：AI生成每日笔记摘要</li>
             <li>深度洞察：AI分析笔记模式和趋势</li>
             <li>文本润色：改进语音转文字的文本质量</li>
             <li>标点恢复：为语音文本添加标点符号</li>
         </ul>
-        <p><strong>数据处理方式</strong>：</p>
-        <ul>
-            <li>DeepSeek服务器位于中国大陆境内，无跨境数据传输</li>
-            <li>仅进行单次处理，不存储用户内容用于模型训练</li>
-            <li>用户首次使用AI功能时会统一弹窗告知并获得授权</li>
-            <li>授权状态可在应用设置中随时关闭</li>
-            <li>关闭授权后，相关AI功能将无法使用，但不影响其他功能</li>
-        </ul>
-        <p><strong>DeepSeek隐私政策</strong>：<a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" target="_blank">cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html</a></p>
 
-        <h3>3.2 用户自定义第三方AI</h3>
-        <p>自定义AI入口仅在「设置-高级AI配置」深层页面展示，不主动面向普通用户。</p>
-        <p>您可以选择以下AI服务提供商（需自行配置API密钥）：</p>
+        <h3>3.2 数据处理方式</h3>
+        <p>当您使用AI功能时：</p>
+        <ol>
+            <li><strong>数据发送</strong>：您的笔记内容将发送到您选择的AI服务提供商</li>
+            <li><strong>本地存储</strong>：您的API密钥仅存储在设备本地，使用iOS Keychain加密</li>
+            <li><strong>不上传服务器</strong>：本应用自然人开发者不会将您的数据上传到本应用自然人开发者的服务器</li>
+        </ol>
+
+        <h3>3.3 支持的AI服务提供商</h3>
+        <p>您可以选择以下AI服务提供商：</p>
         <table>
             <tr><th>服务商</th><th>隐私政策链接</th></tr>
+            <tr><td>DeepSeek</td><td><a href="https://www.deepseek.com/privacy" target="_blank">deepseek.com/privacy</a></td></tr>
             <tr><td>智谱GLM</td><td><a href="https://www.zhipuai.cn/privacy" target="_blank">zhipuai.cn/privacy</a></td></tr>
             <tr><td>Kimi (月之暗面)</td><td><a href="https://kimi.moonshot.cn/privacy" target="_blank">kimi.moonshot.cn/privacy</a></td></tr>
+            <tr><td>豆包 (字节跳动)</td><td><a href="https://www.doubao.com/privacy" target="_blank">doubao.com/privacy</a></td></tr>
             <tr><td>通义千问 (阿里云)</td><td><a href="https://www.aliyun.com/privacy" target="_blank">aliyun.com/privacy</a></td></tr>
+            <tr><td>Apple Intelligence</td><td><a href="https://www.apple.com/privacy" target="_blank">apple.com/privacy</a></td></tr>
         </table>
-        <p><strong>重要说明</strong>：</p>
+
+        <h3>3.4 AI服务数据保留</h3>
+        <p>各AI服务提供商的数据保留政策：</p>
+        <table>
+            <tr><th>服务商</th><th>数据保留期限</th><th>是否用于训练</th><th>详细政策</th></tr>
+            <tr><td>DeepSeek</td><td>30天</td><td>否</td><td><a href="https://www.deepseek.com/privacy" target="_blank">deepseek.com/privacy</a></td></tr>
+            <tr><td>智谱GLM</td><td>30天</td><td>否</td><td><a href="https://www.zhipuai.cn/privacy" target="_blank">zhipuai.cn/privacy</a></td></tr>
+            <tr><td>Kimi</td><td>7天</td><td>否</td><td><a href="https://kimi.moonshot.cn/privacy" target="_blank">kimi.moonshot.cn/privacy</a></td></tr>
+            <tr><td>豆包</td><td>30天</td><td>否</td><td><a href="https://www.doubao.com/privacy" target="_blank">doubao.com/privacy</a></td></tr>
+            <tr><td>通义千问</td><td>30天</td><td>否</td><td><a href="https://www.aliyun.com/privacy" target="_blank">aliyun.com/privacy</a></td></tr>
+            <tr><td>Apple Intelligence</td><td>不保留</td><td>否</td><td><a href="https://www.apple.com/privacy" target="_blank">apple.com/privacy</a></td></tr>
+        </table>
+        <p><strong>重要提示</strong>：</p>
         <ul>
-            <li>全部AI服务商服务器均部署在中国大陆，无跨境数据传输</li>
             <li>请仔细阅读各服务商的隐私政策</li>
             <li>您可以选择不使用AI功能</li>
             <li>本应用自然人开发者建议您定期清理敏感笔记</li>
         </ul>
 
-        <h3>3.3 Apple Intelligence</h3>
-        <p>如果您使用Apple Intelligence功能：</p>
+        <h3>3.5 跨境数据传输</h3>
+        <p>当您使用AI功能时，您的笔记内容可能传输到以下地区：</p>
         <ul>
-            <li>Apple Intelligence数据保留期限：不保留</li>
-            <li>是否用于训练：否</li>
-            <li>可能传输到美国</li>
-            <li>隐私政策：<a href="https://www.apple.com/privacy" target="_blank">apple.com/privacy</a></li>
+            <li><strong>DeepSeek</strong>：中国大陆</li>
+            <li><strong>智谱GLM</strong>：中国大陆</li>
+            <li><strong>Kimi</strong>：中国大陆</li>
+            <li><strong>豆包</strong>：中国大陆</li>
+            <li><strong>通义千问</strong>：中国大陆</li>
+            <li><strong>Apple Intelligence</strong>：可能传输到美国</li>
         </ul>
-        <p><strong>重要提示</strong>：</p>
+        <p>本应用自然人开发者确保：</p>
         <ul>
-            <li>Apple Intelligence为Apple系统级服务，本应用自然人开发者无法控制其数据处理方式</li>
-            <li>请仔细阅读Apple隐私政策</li>
+            <li>已获得您的单独同意</li>
+            <li>已进行个人信息保护影响评估</li>
+            <li>确保境外接收方的数据保护水平达到中国法律要求</li>
         </ul>
 
-        <h3>3.4 您的责任</h3>
+        <h3>3.6 您的责任</h3>
         <ul>
             <li>请妥善保管您的API密钥</li>
             <li>请仔细阅读您选择的AI服务提供商的隐私政策</li>
@@ -398,9 +413,9 @@
             <tr><th>项目</th><th>说明</th></tr>
             <tr><td>数据存储位置</td><td>仅存储在您的设备本地</td></tr>
             <tr><td>本应用自然人开发者是否访问您的数据</td><td>否，本应用自然人开发者无法访问您的笔记内容</td></tr>
-            <tr><td>AI数据处理</td><td>内置DeepSeek + 可选第三方AI服务</td></tr>
-            <tr><td>第三方SDK</td><td>StoreKit（苹果内购），无其他SDK</td></tr>
-            <tr><td>数据收集</td><td>无自动数据收集，无被动采集</td></tr>
+            <tr><td>AI数据处理</td><td>由您选择的AI服务提供商处理，请查看其隐私政策</td></tr>
+            <tr><td>第三方SDK</td><td>StoreKit（苹果内购）</td></tr>
+            <tr><td>数据收集</td><td>无自动数据收集</td></tr>
             <tr><td>数据保留期限</td><td>笔记内容：永久（直到删除）</td></tr>
             <tr><td>您的权利</td><td>访问、更正、删除、导出、撤回同意</td></tr>
             <tr><td>儿童保护</td><td>适合4岁以上用户，不主动收集13岁以下未成年人信息</td></tr>
