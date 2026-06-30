@@ -93,11 +93,11 @@
 
 | 服务商 | 隐私政策链接 |
 |--------|-------------|
-| DeepSeek | https://www.deepseek.com/privacy |
-| 智谱GLM | https://www.zhipuai.cn/privacy |
-| Kimi (月之暗面) | https://kimi.moonshot.cn/privacy |
-| 豆包 (字节跳动) | https://www.doubao.com/privacy |
-| 通义千问 (阿里云) | https://www.aliyun.com/privacy |
+| DeepSeek | https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html |
+| 智谱GLM | https://chatglm.cn/legal/privacyPolicySingle |
+| Kimi (月之暗面) | https://www.kimi.com/user/agreement/userPrivacy |
+| 豆包 (字节跳动) | https://www.doubao.com/legal/privacy-policy |
+| 通义千问 (阿里云) | https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html |
 | Apple Intelligence | https://www.apple.com/privacy |
 
 ### 3.4 AI服务数据保留
