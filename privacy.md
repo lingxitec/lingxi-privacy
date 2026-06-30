@@ -98,7 +98,6 @@
 | Kimi (月之暗面) | https://www.kimi.com/user/agreement/userPrivacy |
 | 豆包 (字节跳动) | https://www.doubao.com/legal/privacy-policy |
 | 通义千问 (阿里云) | https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html |
-| Apple Intelligence | https://www.apple.com/privacy |
 
 ### 3.4 AI服务数据保留
 各AI服务提供商的数据保留政策：
@@ -110,7 +109,6 @@
 | Kimi | 7天 | 否 | https://www.kimi.com/user/agreement/userPrivacy |
 | 豆包 | 30天 | 否 | https://www.doubao.com/legal/privacy-policy |
 | 通义千问 | 30天 | 否 | https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html |
-| Apple Intelligence | 不保留 | 否 | https://www.apple.com/privacy |
 
 **重要提示**：
 - 请仔细阅读各服务商的隐私政策
