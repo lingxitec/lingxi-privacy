@@ -75,51 +75,63 @@
 
 ## 3. AI服务数据处理
 
-### 3.1 默认内置DeepSeek
-本应用默认内置DeepSeek AI服务，为您提供以下AI功能：
+### 3.1 AI功能说明
+本应用提供以下AI功能：
 - 每日回顾：AI生成每日笔记摘要
 - 深度洞察：AI分析笔记模式和趋势
 - 文本润色：改进语音转文字的文本质量
 - 标点恢复：为语音文本添加标点符号
 
-**数据处理方式**：
-- DeepSeek服务器位于中国大陆境内，无跨境数据传输
-- 仅进行单次处理，不存储用户内容用于模型训练
-- 用户首次使用AI功能时会统一弹窗告知并获得授权
-- 授权状态可在应用设置中随时关闭
-- 关闭授权后，相关AI功能将无法使用，但不影响其他功能
+### 3.2 数据处理方式
+当您使用AI功能时：
+1. **数据发送**：您的笔记内容将发送到您选择的AI服务提供商
+2. **本地存储**：您的API密钥仅存储在设备本地，使用iOS Keychain加密
+3. **不上传服务器**：本应用自然人开发者不会将您的数据上传到本应用自然人开发者的服务器
 
-**DeepSeek隐私政策**：https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html
-
-### 3.2 用户自定义第三方AI
-自定义AI入口仅在「设置-高级AI配置」深层页面展示，不主动面向普通用户。
-
-您可以选择以下AI服务提供商（需自行配置API密钥）：
+### 3.3 支持的AI服务提供商
+您可以选择以下AI服务提供商：
 
 | 服务商 | 隐私政策链接 |
 |--------|-------------|
+| DeepSeek | https://www.deepseek.com/privacy |
 | 智谱GLM | https://www.zhipuai.cn/privacy |
 | Kimi (月之暗面) | https://kimi.moonshot.cn/privacy |
+| 豆包 (字节跳动) | https://www.doubao.com/privacy |
 | 通义千问 (阿里云) | https://www.aliyun.com/privacy |
+| Apple Intelligence | https://www.apple.com/privacy |
 
-**重要说明**：
-- 全部AI服务商服务器均部署在中国大陆，无跨境数据传输
+### 3.4 AI服务数据保留
+各AI服务提供商的数据保留政策：
+
+| 服务商 | 数据保留期限 | 是否用于训练 | 详细政策 |
+|--------|------------|------------|---------|
+| DeepSeek | 30天 | 否 | https://www.deepseek.com/privacy |
+| 智谱GLM | 30天 | 否 | https://chatglm.cn/legal/privacyPolicySingle |
+| Kimi | 7天 | 否 | https://www.kimi.com/user/agreement/userPrivacy |
+| 豆包 | 30天 | 否 | https://www.doubao.com/legal/privacy-policy |
+| 通义千问 | 30天 | 否 | https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html |
+| Apple Intelligence | 不保留 | 否 | https://www.apple.com/privacy |
+
+**重要提示**：
 - 请仔细阅读各服务商的隐私政策
 - 您可以选择不使用AI功能
 - 本应用自然人开发者建议您定期清理敏感笔记
 
-### 3.3 Apple Intelligence
-如果您使用Apple Intelligence功能：
-- Apple Intelligence数据保留期限：不保留
-- 是否用于训练：否
-- 可能传输到美国
-- 隐私政策：https://www.apple.com/privacy
+### 3.5 跨境数据传输
+当您使用AI功能时，您的笔记内容可能传输到以下地区：
+- **DeepSeek**：中国大陆
+- **智谱GLM**：中国大陆
+- **Kimi**：中国大陆
+- **豆包**：中国大陆
+- **通义千问**：中国大陆
+- **Apple Intelligence**：可能传输到美国
 
-**重要提示**：
-- Apple Intelligence为Apple系统级服务，本应用自然人开发者无法控制其数据处理方式
-- 请仔细阅读Apple隐私政策
+本应用自然人开发者确保：
+- 已获得您的单独同意
+- 已进行个人信息保护影响评估
+- 确保境外接收方的数据保护水平达到中国法律要求
 
-### 3.4 您的责任
+### 3.6 您的责任
 - 请妥善保管您的API密钥
 - 请仔细阅读您选择的AI服务提供商的隐私政策
 - 您可以选择不使用AI功能
