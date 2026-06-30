@@ -253,7 +253,7 @@ A:
 如有问题，请通过以下方式联系：
 
 - **GitHub Issues**: https://github.com/lingxitec/lingxi-privacy/issues
-- **微信公众号**: 攀谈笔记
+- **开发者邮箱**: 892086417@qq.com
 
 ---
 

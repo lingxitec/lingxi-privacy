@@ -284,7 +284,7 @@
 
 **GitHub Issues**：https://github.com/lingxitec/lingxi-privacy/issues
 
-**微信公众号**：攀谈笔记
+**开发者邮箱**：892086417@qq.com
 
 **响应时间**：本应用自然人开发者将在7个工作日内回复您的问题。
 
